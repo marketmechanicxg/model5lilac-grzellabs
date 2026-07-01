@@ -88,6 +88,7 @@
 
 /* ── Card utama ──────────────────────────────────────────── */
 .music-player__card {
+  width: 100%;
   background: rgba(18, 9, 30, 0.90);
   border: 1px solid rgba(255,255,255,0.09);
   border-radius: 18px;
@@ -390,28 +391,48 @@
 /* ── Mobile ──────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .music-player { 
-    width: 130px; 
+    width: 82px; 
     bottom: var(--sp-3); 
     left: var(--sp-3); 
   }
   .music-player__cover-wrap {
     aspect-ratio: 1 / 1; /* Make it square to save vertical space */
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
   .music-player__title {
-    font-size: 0.72rem;
+    font-size: 0.52rem;
+  }
+  .music-player__artist {
+    font-size: 0.42rem;
   }
   .music-player__card {
-    padding: 8px;
-    border-radius: 14px;
+    padding: 5px;
+    border-radius: 10px;
   }
   .music-player__toggle {
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
+  }
+  .music-player__toggle svg {
+    width: 10px;
+    height: 10px;
   }
   .music-player__prev,
   .music-player__next {
-    width: 22px;
-    height: 22px;
+    width: 14px;
+    height: 14px;
+  }
+  .music-player__prev svg,
+  .music-player__next svg {
+    width: 8px;
+    height: 8px;
+  }
+  .music-player__fab {
+    width: 26px;
+    height: 26px;
+  }
+  .music-player__fab svg {
+    width: 11px;
+    height: 11px;
   }
 }
