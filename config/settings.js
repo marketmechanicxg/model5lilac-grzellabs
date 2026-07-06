@@ -31,8 +31,8 @@ const RECIPIENT_NAME = "Nabila";           // ← GANTI NAMA
    Lalu ganti judul dan nama artis di bawah ini.                  */
 const MUSIC_TRACKS = [
   {
-    title:  "Masa ini, Nanti, Dan Masa Indah Lainnya",             // ← GANTI JUDUL LAGU
-    artist: "Nuca",                   // ← GANTI NAMA ARTIS
+    title:  "SEMUA AKU DIRAYAKAN",             // ← GANTI JUDUL LAGU
+    artist: "NADIN AMIZAH",                   // ← GANTI NAMA ARTIS
     src:    "assets/music/song1.mp3",    //   (nama file mp3 — jangan diubah kecuali nama filenya beda)
     cover:  "assets/music/song1.jpeg",   //   (nama file cover — jangan diubah kecuali nama filenya beda)
     startTime: 0,                           // ← MULAI DARI DETIK KE BERAPA
